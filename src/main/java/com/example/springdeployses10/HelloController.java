@@ -16,7 +16,7 @@ public class HelloController {
         System.out.println(message);
         return "Hola Mundo crueeel que feo eres";
     }
-    @GetMapping("/")
+    @GetMapping("/cambio")
     public String bootstrao(){
         return """
                 <!doctype html>
