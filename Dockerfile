@@ -7,5 +7,8 @@ WORKDIR /app
 # Copia el archivo JAR de tu aplicación al directorio de trabajo
 COPY target/spring-deploy-SES10-1.0.jar app.jar
 
+# Expone el puerto 8080
+EXPOSE 8080
+
 # Define el comando de inicio del contenedor
 CMD ["java", "-jar", "app.jar"]
